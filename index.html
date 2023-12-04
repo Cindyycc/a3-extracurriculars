@@ -1,36 +1,120 @@
 <!DOCTYPE html>
 <html lang="en-US">
 	<head>
+        <style>
+      * {
+  box-sizing: border-box;
+}
+      .header {
+        padding: 80px; /* some padding */
+        text-align: center; /* center the text */
+        background: ##DDDBF1; /* green background */
+        color: white; /* white text color */
+      }
+      body {background-color: #B7C0EE;}
+      a {
+        color: #de6581;
+        text-decoration: none;
+        padding: 50px;
+        font-family: verdana;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        color: white;
+
+      }
+
+      li {
+        float: left;
+        display: block;
+        padding: 6px;
+        border-right: 2px solid #bbb;
+        color: blue;
+
+      }
+
+      li a:hover {
+        background-color: #dddddd;
+      }
+      
+      /* Column container */
+.row { 
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%; /* Set the width of the sidebar */
+  background-color: #f1f1f1; /* Grey background color */
+  padding: 20px; /* Some padding */
+}
+
+/* Main column */
+.main { 
+  flex: 70%; /* Set the width of the main content */
+  background-color: white; /* White background color */
+  padding: 20px; /* Some padding */
+}
+    </style>
 		<meta charset="utf-8">
 		<title>Extra Curriculars</title>
 	</head>
-  <h1>
-    Extra Curriculars
-  </h1>
+  <div class="header">
+  <h1>Cindy Chuong</h1>
+  <p>Extra Curriculars</p>
+</div>
+  <body>
+    <ul>
+      <li> <a href=""> All About me </a> </li>
+      <li> <a href=""> Extracurriculars </a> </li>
+      <li> <a href=""> Employment History </a> </li>
+      <li> <a href=""> Education </a> </li>
+      <li> <a href=""> Quiz </a> </li>
+    </ul>
+  <div class="row">
+  <div class="side">
+      <img src="https://pctcheerandtumble.com/cdn/shop/files/PCT_logo_200x.png?v=1658938181" alt="Girl in a jacket" width="70%">
+      </div>
+  <div class="main">
   <h2>
     All Star Cheerleading
   </h2>
-	<body>
     <p>
-      Introduced when I was 10 at my elementary school's team.
+      Introduced when I was 10 years old at my elementary school's team.
       At 12, joined an all star prep team with 3 competitions that year.
-      At 13, joined an all-star team competiting at canada and state competitions.
+      At 13, joined an all-star team competiting at Canadian and State competitions.
       Stopped just before COVID-19.
     </p>
+    </div>
+    <div class="main">
+      
 	<h2>
     Volleyball
   </h2>
     <p>
-      Participated on the junior team the first two years of highschool. 
+      Played on the volleyball team the first two years of highschool. Grade 9: BANTAM team Grade 10: Junior Girls team
     </p>
-  <h2>
-    Instruments
-    </h2>
-    <h3>
-       Violin
-    </h3>
-    <p>
-      Played for two years in middle-school, due to arts program i was in.
+    </div>
+    <div class="side">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbSwxEnivxXW2aOWxmt0-QV5NUcD_WYnpRx1yXNcWFWQ&s">
+
+    </div>
+    <div class="side">
+      <img src="https://pngimg.com/d/violin_PNG12845.png" width="30%">
+    </div>
+    <div class="main">
+      <h2>
+        Violin
+      </h2>
+      <p>
+      Played for two years in middle-school
     </p>
+    </div>
 	</body>
 </html>
